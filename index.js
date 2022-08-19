@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://62fef0896f076d246b43bbec--reyaly-black-book.netlify.app',
   optionsSuccessStatus: 200,
   credentials: true
 }
