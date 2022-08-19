@@ -2,6 +2,10 @@ const express = require("express");
 const userModel = require("../models/models");
 const app = express();
 
+app.get("/", (req, res) => {
+  res.send("here be a backend")
+})
+
 app.post("/add_user", async (request, response) => {
     const user = new userModel(request.body);
   
