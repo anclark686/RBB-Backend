@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 const whitelist = [
-  "https://reyaly-black-book.netlify.app/",
+  "https://reyaly-black-book.netlify.app",
   "http://localhost:3000",
 ];
 
