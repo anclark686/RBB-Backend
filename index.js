@@ -47,15 +47,9 @@ db.once("open", function () {
 
 app.use(Router);
 
-<<<<<<< HEAD
 let PORT = 3001;
 
 app.listen(process.env.PORT || PORT,  () => {
     console.log(`Running  on port ${PORT}`)
 }) 
-=======
-let PORT = 5000;
-app.listen(process.env.PORT || PORT, () => {
-  console.log(`Running  on port ${PORT}`);
-}); 
->>>>>>> 788627f63b31bdd843094a88a054c7979dd35d79
+
